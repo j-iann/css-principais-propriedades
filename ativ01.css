@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    line-height: 3.5em;
+}
+
+h1, h2 {
+    font-family: 'Slabo 13px', serif;
+    margin-left: 275px;
+    color:darkorange;
+}
+
+#preparo, #ingredientes {
+    font-family: 'Lato', sans-serif;
+
+}
+
+li {
+    font-size: 15px;
+}
+
+.numerao {
+    font-size: 30px;
+    margin: 10px;
+    color:rgb(190, 159, 159);
+}
+
+.subtitulo {
+    width: 750px;
+    height: 35px;
+    background-color:gainsboro;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
+.xicara {
+    text-decoration: line-through;
+}
+
+#preparo {
+    right: 0;
+    position: absolute;
+}
